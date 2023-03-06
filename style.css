@@ -1,6 +1,6 @@
 #button{
     color: white;
-    background: red;
+    background: green;
     width: 200px;
     height: 40px;
     border: 0;
@@ -8,9 +8,24 @@
 
 }
 
-.titulo{
-    color: blue;
-    text-align: center;
+
+
+#container{
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+}
+
+#container header
+h1{
+color: blue;
+text-align: center;
+}
+
+#content{
+    background-color: gray;
+    color: white;
+    padding: 16px;
 }
 
 p {
